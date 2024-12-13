@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import MetaTags from "../Components/MetaTags.tsx";
+import {Navbar} from "../Components/Navbar.tsx";
+import {Link} from 'react-router-dom';
 
 export function Homepage() {
-    const [count, setCount] = useState(0)
     return (
 
         <>
@@ -14,26 +12,40 @@ export function Homepage() {
                 image='https://utfs.io/f/QI8sw9xDXLhGwi2l69SRX6DVsvJiC2qWgOU98GMQjlmH1BrL'
                 name='Areg travels'
             />
+            <Navbar/>
             <div>
-                <a href="https://vite.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
+                <h1>Areg travels</h1>
+                <p className="text-xs mt-4">Welcome to Areg travels! Here you can explore flights and tours with Areg!</p>
+                <div className="flex flex-row">
+                    <div className="basis-1/3 mt-16">
+                        <p>Tours starting at 10$!!!</p>
+                        <Link to="/Tours">
+                            <button
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                here!!!
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="basis-1/3 mt-16">
+                        <p>FLights starting at 120$!!!</p>
+                        <Link to="/Flights">
+                            <button
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                here!!!
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="basis-1/3 mt-16">
+                        <p>Contact Us here!!!</p>
+                        <Link to="/Contact-Us">
+                            <button
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                here!!!
+                            </button>
+                        </Link>
+                    </div>
+                </div>
             </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
         </>
     )
 }

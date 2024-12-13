@@ -14,6 +14,7 @@ export function Homepage() {
             />
             <Navbar/>
             <div>
+                <img className="w-20 h-20 ml-[50%] translate-x-[-50%] mb-4" src="https://utfs.io/f/QI8sw9xDXLhGwi2l69SRX6DVsvJiC2qWgOU98GMQjlmH1BrL" alt="globe"/>
                 <h1>Areg travels</h1>
                 <p className="text-xs mt-4">Welcome to Areg travels! Here you can explore flights and tours with Areg!</p>
                 <div className="flex flex-row">

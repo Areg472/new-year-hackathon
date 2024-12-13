@@ -6,12 +6,13 @@ import MetaTags from "../Components/MetaTags.tsx";
 export function Homepage() {
     const [count, setCount] = useState(0)
     return (
+
         <>
             <MetaTags
-                title="Areg travels"
-                description="My website for codedex hackathon"
-                image="https://utfs.io/f/QI8sw9xDXLhGN8UiSz2DsRLvQdntFY8ehkO5W3Sr0cPpU2Kq"
-                name="Areg travels"
+                title='Areg travels'
+                description='My website for codedex hackathon'
+                image='https://utfs.io/f/QI8sw9xDXLhGwi2l69SRX6DVsvJiC2qWgOU98GMQjlmH1BrL'
+                name='Areg travels'
             />
             <div>
                 <a href="https://vite.dev" target="_blank">

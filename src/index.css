@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Monaspace Xenon";
-  src: url("public/xenon.otf") format("opentype");
+@layer base {
+  @font-face {
+    font-family: "Monaspace Xenon";
+    src: url("../public/xenon.otf") format("opentype");
+  }
 }
 
 :root {
   line-height: 1.5;
   font-weight: 400;
+  font-family: "Monaspace Xenon", sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);

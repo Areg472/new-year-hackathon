@@ -19,7 +19,7 @@ export function Homepage() {
                 <p className="text-xs mt-4">Welcome to Areg travels! Here you can explore flights and tours with Areg!</p>
                 <div className="flex flex-col md:flex-row mb-16 md:mb-0">
                     <div className="basis-1/3 mt-16">
-                        <p>Tours starting at 10$!!!</p>
+                        <p>Tours starting at 50$!!!</p>
                         <Link to="/Tours">
                             <button
                                 className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 hover:scale-110 active:scale-90">Click
@@ -28,7 +28,7 @@ export function Homepage() {
                         </Link>
                     </div>
                     <div className="basis-1/3 mt-16">
-                        <p>Flights starting at 120$!!!</p>
+                        <p>Flights starting at 80$!!!</p>
                         <Link to="/Flights">
                             <button
                                 className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 hover:scale-110 active:scale-90">Click

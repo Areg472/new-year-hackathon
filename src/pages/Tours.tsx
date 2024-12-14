@@ -30,6 +30,7 @@ export function Tours() {
 
                 </div>
                 <p className="mt-10 text-xl">Only for 70$!!!</p>
+                <p className="mt-2 text-sm">Contact for more info!</p>
             </div>
             <div className="flex flex-col mt-10">
                 <div className="flex flex-row  mr-24">
@@ -50,6 +51,7 @@ export function Tours() {
                          className="w-auto h-[302px] border-black border-double border-4" alt="haghartsin"/>
                 </div>
                 <p className="mt-10 text-xl">Only for 50$!!!</p>
+                <p className="mt-2 text-sm">Contact for more info!</p>
             </div>
         </>
     )

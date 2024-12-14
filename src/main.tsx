@@ -8,13 +8,13 @@ import {DevSupport} from "@react-buddy/ide-toolbox";
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <HelmetProvider>
-            <DevSupport
-                ComponentPreviews={ComponentPreviews}
-                useInitialHook={useInitial}
-            >
-                <App />
-            </DevSupport>
-        </HelmetProvider>
+        <DevSupport
+            ComponentPreviews={ComponentPreviews}
+            useInitialHook={useInitial}
+        >
+            <HelmetProvider>
+                    <App />
+            </HelmetProvider>
+        </DevSupport>
     </StrictMode>,
 )

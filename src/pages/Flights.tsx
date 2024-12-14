@@ -60,7 +60,7 @@ export function Flights() {
                 </div>
                 <p className="mt-10 text-xl">Only for 200$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline mb-20">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 underline mb-16">Contact for more info!</p>
                 </Link>
             </div>
         </>

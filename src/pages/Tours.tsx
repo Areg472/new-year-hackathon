@@ -32,7 +32,7 @@ export function Tours() {
                 </div>
                 <p className="mt-10 text-xl">Only for 70$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 dark:text-rose-600 underline">Contact for more info!</p>
                 </Link>
             </div>
             <div className="flex flex-col mt-10">
@@ -55,7 +55,7 @@ export function Tours() {
                 </div>
                 <p className="mt-10 text-xl">Only for 50$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline mb-16">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 dark:text-rose-600 underline mb-16">Contact for more info!</p>
                 </Link>
             </div>
         </>

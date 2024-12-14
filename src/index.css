@@ -7,6 +7,9 @@
     font-family: "Monaspace Xenon";
     src: url("../public/xenon.otf") format("opentype");
   }
+  body {
+    @apply bg-white text-black dark:bg-blue-600 dark:text-white;
+  }
 }
 
 :root {
@@ -14,19 +17,8 @@
   font-weight: 400;
   font-family: "Monaspace Xenon", sans-serif;
 
-  color-scheme: light;
-  color: black;
-  background-color: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
 }

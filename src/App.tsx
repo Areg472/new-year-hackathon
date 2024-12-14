@@ -6,7 +6,6 @@ import {Flights} from "./pages/Flights.tsx";
 import {ContactUs} from "./pages/ContactUs.tsx";
 
 function App() {
-
   return (
       <Router>
           <Routes>

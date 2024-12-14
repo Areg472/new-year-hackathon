@@ -28,7 +28,7 @@ export function Flights() {
                 </div>
                 <p className="mt-10 text-xl">Only for 80$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 dark:text-rose-600 underline">Contact for more info!</p>
                 </Link>
                 <div className="flex flex-col mb-6 md:flex-row md:-space-x-14 md:mb-0 md:items-start items-center md:ml-24">
                     <p className="basis-1/3 mt-24">Tbilisi</p>
@@ -44,7 +44,7 @@ export function Flights() {
                 </div>
                 <p className="mt-10 text-xl">Only for 120$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 dark:text-rose-600 underline">Contact for more info!</p>
                 </Link>
                 <div className="flex flex-col mb-6 md:flex-row md:-space-x-14 md:mb-0 md:items-start items-center md:ml-24">
                     <p className="basis-1/3 mt-24">Paris</p>
@@ -60,7 +60,7 @@ export function Flights() {
                 </div>
                 <p className="mt-10 text-xl">Only for 200$!!!</p>
                 <Link to="/Contact-Us">
-                    <p className="mt-2 text-sm text-blue-600 underline mb-16">Contact for more info!</p>
+                    <p className="mt-2 text-sm text-blue-600 dark:text-rose-600 underline mb-16">Contact for more info!</p>
                 </Link>
             </div>
         </>

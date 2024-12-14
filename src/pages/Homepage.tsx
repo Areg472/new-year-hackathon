@@ -22,7 +22,7 @@ export function Homepage() {
                         <p>Tours starting at 10$!!!</p>
                         <Link to="/Tours">
                             <button
-                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 hover:scale-110 active:scale-90">Click
                                 here!!!
                             </button>
                         </Link>
@@ -31,7 +31,7 @@ export function Homepage() {
                         <p>Flights starting at 120$!!!</p>
                         <Link to="/Flights">
                             <button
-                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 hover:scale-110 active:scale-90">Click
                                 here!!!
                             </button>
                         </Link>
@@ -40,7 +40,7 @@ export function Homepage() {
                         <p>Contact Us here!!!</p>
                         <Link to="/Contact-Us">
                             <button
-                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
+                                className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 hover:scale-110 active:scale-90">Click
                                 here!!!
                             </button>
                         </Link>

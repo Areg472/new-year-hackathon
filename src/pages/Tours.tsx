@@ -19,6 +19,7 @@ export function Tours() {
                          className="w-[336px] h-[188px] justify-center items-center basis-1/3"/>
                     <p className="basis-1/3 mt-20">Gyumri</p>
                 </div>
+                <p className="mb-10">Explore the wonders of Gyumri, the 2nd largest city in Armenia! In this tour we will visit a Black castle, Frunzik's home-museum and Isahakyan's home-museum, and eat in Cherqezi Dzor</p>
                 <div className="flex flex-row justify-center space-x-36">
                     <img src="https://utfs.io/f/QI8sw9xDXLhG9MC30ooEDCW1L37JxKPFhZuloQvzV29IEAg4"
                          className="w-[201px] h-[302px] border-black border-double border-4" alt="gyumri wall"/>
@@ -37,11 +38,12 @@ export function Tours() {
                          className="w-auto h-[188px] justify-center items-center basis-1/5"/>
                     <p className="basis-1/5 mt-20">Haghartsin</p>
                 </div>
+                <p className="mb-10">Explore the wonders of Sevan and Haghartsin. Sevan lake is the largest lake in Armenia while Haghartsin Monastery is built between 10th and 13th centuries!</p>
                 <div className="flex flex-row justify-center space-x-36">
                     <img src="https://utfs.io/f/QI8sw9xDXLhGjHJqrUzpOS3rA9TEpVRlYJbcxtInX4UwgN1i"
-                         className="w-auto h-[302px] border-black border-double border-4" alt="gyumri wall"/>
+                         className="w-auto h-[302px] border-black border-double border-4" alt="sevan"/>
                     <img src="https://utfs.io/f/QI8sw9xDXLhGVvKjqsQwkRc8SgNGDZmFqpdPfsOeYAh4IT3n"
-                         className="w-auto h-[302px] border-black border-double border-4" alt="gyumri city"/>
+                         className="w-auto h-[302px] border-black border-double border-4" alt="haghartsin"/>
                 </div>
             </div>
         </>

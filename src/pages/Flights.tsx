@@ -11,6 +11,21 @@ export function Flights() {
                 name='Areg travels'
             />
             <Navbar/>
+            <div className="flex flex-col">
+                <p>Flights!</p>
+                <div className="flex flex-row mt-16 -space-x-24 ml-48">
+                    <p className="basis-1/3 mt-20">Yerevan</p>
+                    <img className="basis-1/3 w-[336px] h-[188px]"
+                         src="https://utfs.io/f/QI8sw9xDXLhGcI1OxWYEXyQ0aSigwC6Lq8hAFxlMZVzm29n4" alt="plane moving"/>
+                    <p className="basis-1/3 mt-20">Tbilisi</p>
+                </div>
+                <div className="flex flex-row justify-center space-x-36">
+                    <img src="https://utfs.io/f/QI8sw9xDXLhGl1gwdLs7B5oKcCzPVTIrGWxt4ZM9q6Ajigsa"
+                         className="w-auto h-[302px] border-black border-double border-4" alt="yerevan"/>
+                    <img src="https://utfs.io/f/QI8sw9xDXLhG7aRQ7DGTW2ZDCGlgBULJ7VbdyN0QksOw83Pp"
+                         className="w-auto h-[302px] border-black border-double border-4" alt="tbilisi"/>
+                </div>
+            </div>
         </>
     )
 }

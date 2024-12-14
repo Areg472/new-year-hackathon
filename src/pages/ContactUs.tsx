@@ -11,7 +11,7 @@ export function ContactUs() {
                 name='Areg travels'
             />
             <Navbar/>
-            <div>
+            <div className="mt-10">
                 <p className="mb-10 mt-4">Contact Aregs Tours!</p>
                 <form action="https://submit-form.com/NmxCgJpJV" className="form">
                     <label htmlFor="name" className="">Name</label><br/>

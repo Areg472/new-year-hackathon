@@ -28,7 +28,7 @@ export function Homepage() {
                         </Link>
                     </div>
                     <div className="basis-1/3 mt-16">
-                        <p>FLights starting at 120$!!!</p>
+                        <p>Flights starting at 120$!!!</p>
                         <Link to="/Flights">
                             <button
                                 className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click

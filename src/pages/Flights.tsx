@@ -1,5 +1,6 @@
 import {Navbar} from "../Components/Navbar.tsx";
 import MetaTags from "../Components/MetaTags.tsx";
+import {Link} from "react-router-dom";
 
 export function Flights() {
     return(
@@ -26,7 +27,9 @@ export function Flights() {
                          className="w-auto h-[302px] border-black border-double border-4" alt="tbilisi"/>
                 </div>
                 <p className="mt-10 text-xl">Only for 80$!!!</p>
-                <p className="mt-2 text-sm">Contact for more info!</p>
+                <Link to="/Contact-Us">
+                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                </Link>
                 <div className="flex flex-row mt-16 -space-x-24 ml-48">
                     <p className="basis-1/3 mt-20">Tbilisi</p>
                     <img className="basis-1/3 w-[336px] h-[188px]"
@@ -40,7 +43,9 @@ export function Flights() {
                          className="w-auto h-[302px] border-black border-double border-4" alt="sofia"/>
                 </div>
                 <p className="mt-10 text-xl">Only for 120$!!!</p>
-                <p className="mt-2 text-sm">Contact for more info!</p>
+                <Link to="/Contact-Us">
+                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                </Link>
                 <div className="flex flex-row mt-16 -space-x-24 ml-48">
                     <p className="basis-1/3 mt-20">Paris</p>
                     <img className="basis-1/3 w-[336px] h-[188px]"
@@ -54,7 +59,9 @@ export function Flights() {
                          className="w-auto h-[302px] border-black border-double border-4" alt="Yerevan"/>
                 </div>
                 <p className="mt-10 text-xl">Only for 200$!!!</p>
-                <p className="mt-2 text-sm">Contact for more info!</p>
+                <Link to="/Contact-Us">
+                    <p className="mt-2 text-sm text-blue-600 underline">Contact for more info!</p>
+                </Link>
             </div>
         </>
     )

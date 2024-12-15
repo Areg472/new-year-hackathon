@@ -9,7 +9,7 @@ export function Tours() {
                 title='Areg travels - Tours'
                 description='My website for codedex hackathon'
                 image='https://utfs.io/f/QI8sw9xDXLhGwi2l69SRX6DVsvJiC2qWgOU98GMQjlmH1BrL'
-                name='Areg travels'
+                name='Areg travelss'
             />
             <Navbar/>
             <div className="flex flex-col mt-10">

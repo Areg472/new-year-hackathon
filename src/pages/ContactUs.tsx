@@ -28,7 +28,7 @@ export function ContactUs() {
                         className="border-double bg-white dark:bg-black dark:text-white border-4 max-h-52 min-h-16 mb-4 w-80 h-28"
                         required={true}
                     ></textarea><br/>
-                    <button type="submit" className="border-double border-4 w-24 hover:scale-110 active:scale-90">Send</button>
+                    <button type="submit" className="border-double border-4 w-24 hover:scale-110 active:scale-90 duration-200">Send</button>
                 </form>
             </div>
         </>

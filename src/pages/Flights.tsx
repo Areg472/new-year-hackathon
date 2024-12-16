@@ -13,7 +13,7 @@ export function Flights() {
             />
             <Navbar/>
             <div className="flex flex-col mt-10">
-                <p>Flight!</p>
+                <p>Flights!</p>
                 <div className="flex flex-col mb-6 lg:flex-row lg:-space-x-14 lg:mb-0 lg:items-start items-center lg:ml-24">
                     <p className="basis-1/3 mt-24">Yerevan</p>
                     <img className="basis-1/3 w-[336px] h-auto"

@@ -25,9 +25,9 @@ export function Tours() {
                     Dzor</p>
                 <div className="flex flex-col space-y-6 md:flex-row items-center md:space-y-0 justify-center md:space-x-36">
                     <img src="https://utfs.io/f/QI8sw9xDXLhG9MC30ooEDCW1L37JxKPFhZuloQvzV29IEAg4"
-                         className="w-[201px] h-[302px] border-black border-double border-4 object-cover mb:object-none" alt="gyumri wall"/>
+                         className="w-[201px] h-[302px] border-black border-double border-4 object-cover md:object-none" alt="gyumri wall"/>
                     <img src="https://utfs.io/f/QI8sw9xDXLhGku7lCgvIBwPv8aifGnrD9pZ7FhuJeyE6MYTz"
-                         className="w-[201px] h-[302px] border-black border-double border-4 object-cover mb:object-none" alt="gyumri city"/>
+                         className="w-[201px] h-[302px] border-black border-double border-4 object-cover md:object-none" alt="gyumri city"/>
 
                 </div>
                 <p className="mt-10 text-xl">Only for 70$!!!</p>
@@ -49,9 +49,9 @@ export function Tours() {
                     Armenia while Haghartsin Monastery is built between 10th and 13th centuries!</p>
                 <div className="flex flex-col space-y-6 md:flex-row items-center md:space-y-0 justify-center md:space-x-36">
                     <img src="https://utfs.io/f/QI8sw9xDXLhGjHJqrUzpOS3rA9TEpVRlYJbcxtInX4UwgN1i"
-                         className="w-auto h-[302px] border-black border-double border-4 object-cover mb:object-none" alt="sevan"/>
+                         className="w-auto h-[302px] border-black border-double border-4 object-cover md:object-none" alt="sevan"/>
                     <img src="https://utfs.io/f/QI8sw9xDXLhGVvKjqsQwkRc8SgNGDZmFqpdPfsOeYAh4IT3n"
-                         className="w-auto h-[302px] border-black border-double border-4 object-cover mb:object-none" alt="haghartsin"/>
+                         className="w-auto h-[302px] border-black border-double border-4 object-cover md:object-none" alt="haghartsin"/>
                 </div>
                 <p className="mt-10 text-xl">Only for 50$!!!</p>
                 <Link to="/Contact-Us">

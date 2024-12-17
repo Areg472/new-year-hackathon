@@ -26,7 +26,7 @@ export function Homepage() {
                             <Link to="/Tours">
                                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                                     <button
-                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 duration-200">Click
+                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
                                         here!!!
                                     </button>
                                 </motion.div>
@@ -37,7 +37,7 @@ export function Homepage() {
                             <Link to="/Flights">
                                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                                     <button
-                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 duration-200">Click
+                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3">Click
                                         here!!!
                                     </button>
                                 </motion.div>
@@ -48,7 +48,7 @@ export function Homepage() {
                             <Link to="/Contact-Us">
                                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                                     <button
-                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 duration-200">Click
+                                        className="button leading-loose text-sm border-2 border-black w-32 border-double mt-3 ">Click
                                         here!!!
                                     </button>
                                 </motion.div>

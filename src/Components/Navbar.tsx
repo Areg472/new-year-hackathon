@@ -10,28 +10,28 @@ export function Navbar() {
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                     <Link to="/">
                         <button
-                            className="button leading-loose text-sm border-2 border-black w-32 border-double duration-200">Home
+                            className="button leading-loose text-sm border-2 border-black w-32 border-double">Home
                         </button>
                     </Link>
                 </motion.div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                     <Link to="/Tours">
                         <button
-                            className="button leading-loose text-sm border-2 border-black w-32 border-double duration-200">Tours
+                            className="button leading-loose text-sm border-2 border-black w-32 border-double">Tours
                         </button>
                     </Link>
                 </motion.div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                     <Link to="/Flights">
                         <button
-                            className="button leading-loose text-sm border-2 border-black w-32 border-double duration-200">Flights
+                            className="button leading-loose text-sm border-2 border-black w-32 border-double">Flights
                         </button>
                     </Link>
                 </motion.div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
                     <Link to="/Contact-Us">
                         <button
-                            className="button leading-loose text-sm border-2 border-black w-32 border-double duration-200">Contact
+                            className="button leading-loose text-sm border-2 border-black w-32 border-double">Contact
                             Us
                         </button>
                     </Link>

@@ -6,4 +6,7 @@ During the 90s it revolutionized the internet by introducing mobile(never seen g
 
 ## Welcome to the new age!
 
+In this Codedex Hackathon I learned a lot about marketing, did some excellent video editing, saw some good marketers (Val), and had fun with the community!
+Thanks a lot to the whole Codedex team for organizing this event!
+
 [![My Skills](https://skillicons.dev/icons?i=vite,react,webstorm,netlify,cloudflare,typescript,github)](https://skillicons.dev)

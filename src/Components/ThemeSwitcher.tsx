@@ -28,14 +28,14 @@ function ThemeSwitch() {
             onChange={handleThemeChange}
             className={classNames(
                 enabled ? 'bg-gray-400' : 'bg-black',
-                'relative inline-flex h-7 w-12 flex-shrink-0 cursor-pointer border-4 transition-colors duration-200 ease-in-out border-double'
+                'relative inline-flex h-7 w-12 shrink-0 cursor-pointer border-4 transition-colors duration-200 ease-in-out border-double'
             )}
         >
             <span className='sr-only'>Use setting</span>
             <span
                 className={classNames(
                     enabled ? 'translate-x-5' : 'translate-x-0',
-                    'pointer-events-none relative inline-block h-5 w-5 transform bg-white shadow ring-0 transition duration-200 ease-in-out'
+                    'pointer-events-none relative inline-block h-5 w-5 transform bg-white shadow-sm ring-0 transition duration-200 ease-in-out'
                 )}
             >
         <span
